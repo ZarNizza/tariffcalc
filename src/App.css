@@ -3,13 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 180s linear;
   }
 }
 
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button,
+input {
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+ul, ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type:circle;
+}
+li {
+  margin-right:20px;
+}
+.inForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.inForm label {
+  font-size: 0.8em;
+}
+.outForm {
+  margin-top: 30px;
+  padding: 10px;
+  background-color:#282c34;
+  color: bisque;
+  border-radius: 5px;
+  border: 1px bisque solid;
+  font-size: 0.8em;
+}
+table {
+  margin-top: 40px;
+  padding: 10px;
+  background-color:#282c34;
+  color: bisque;
+  border-top: 1px bisque solid;
+  font-size: 0.5em;  
+}
+thead td {
+  vertical-align:top;
+  border-bottom: 1px bisque solid;
 }
